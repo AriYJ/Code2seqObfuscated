@@ -4,7 +4,7 @@ Final project for 6156 Topics In Software Engineering (Spring 2021) - Team Deep 
 All project assignments (proposal, revised proposal, first progress report, second progress report, demo slides) can be found in the 'milestone assignments' folder
 
 # Code, Scripts, Configurations, etc.
-Below is a list of scripts we have created/edited for the project. They can be find in the 
+Below is a list of scripts we have created/edited for the project. They can be found in the 
 + Edited path to point to obfuscated data: preprocess.sh (code2seq, preprocessing data)
 + Edited path to point to preprocessed data: train.sh (code2seq, model training)
 + Configured hyperparameters: config.py (code2seq, model training)
