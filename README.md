@@ -22,7 +22,7 @@ Below is a list of scripts we have created/edited for the project. They can be f
 We retrained the code2seq model with obfuscated data, used the new model to evalute student submissions from Columbia's 4156 Advanced Software Engineering (Fall 2020) and compared results to that of the original code2seq small-java model.
 
 # How To Run This Project
-After you get the CSV from evaluating the submission data, replace the filename in similarity_accuracy.py, set the desired output filename, and run the python file. The accuracy score will get printed.
+After you get the CSV file from evaluating the submission data, replace the input filename in similarity_accuracy.py, set the desired output filename, and run similarity_accuracy.py. The accuracy score will get printed.
 <MORE INFO>
 
 # Relevant Sources:
