@@ -8,8 +8,8 @@ We attempted to answer two research questions: 1) if obfuscation of variable nam
 In order to answer these questions, we 1) retrained the code2seq model with obfuscated data, 2) used the new model to evalute student submissions from Columbia's 4156 Advanced Software Engineering (Fall 2020) and 3) compared results to that of the original code2seq small-java model.
 
 # How To Run This Project
-After you get the CSV file from evaluating the submission data, replace the input filename in similarity_accuracy.py, set the desired output filename, and run similarity_accuracy.py. The accuracy score will get printed.
-<MORE INFO>
++ After you get the CSV file from evaluating the submission data, replace the input filename in similarity_accuracy.py, set the desired output filename, and run similarity_accuracy.py. The accuracy score will get printed.
++ <MORE INFO NEEDED>
   
 # All Project Assignments
 All project assignments (proposal, revised proposal, first progress report, second progress report, demo slides) can be found in the 'All_Project_Assignments' directory
@@ -29,7 +29,7 @@ All raw data from experiments (we conducted no user studies) can be found in the
 + CSV output of most similar pairs of methods with the original java-small model: nonobfuscated_final_output.csv
 + CSV output of most similar pairs of methods with the obfuscated model: obfuscated_13epoch_final_output.csv
 + Two accuracy score outputs are at the end of similarity_accuracy.pdf
-<MORE INFO>
++ <MORE INFO NEEDED>
 
 # Relevant Sources:
 - Code2seq: https://github.com/tech-srl/code2seq
