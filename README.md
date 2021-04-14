@@ -15,8 +15,9 @@ Below is a list of scripts we have created/edited for the project. They can be f
 All raw data from experiments (we conducted no user studies) can be found in the 'Raw_Data_From_Experiments' directory. All files are listed below.
 + CSV Output from evaluating the submission data with the original java-small model:
 + CSV Output from evaluating the submission data with the obfuscated model:
-+ CSV Output of most similar pairs of methods with the original java-small model: nonobfuscated_final_output.csv
-+ CSV Output of most similar pairs of methods with the obfuscated model: obfuscated_13epoch_final_output.csv
++ CSV output of most similar pairs of methods with the original java-small model: nonobfuscated_final_output.csv
++ CSV output of most similar pairs of methods with the obfuscated model: obfuscated_13epoch_final_output.csv
++ Two accuracy score outputs are at the end of similarity_accuracy.pdf
 <MORE INFO>
 
 # Project Overview
