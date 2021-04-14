@@ -12,7 +12,7 @@ In order to answer these questions, we 1) retrained the code2seq model with obfu
 + <MORE INFO NEEDED>
   
 # All Project Assignments
-All project assignments (proposal, revised proposal, first progress report, second progress report, demo slides) can be found in the 'All_Project_Assignments' directory
+All project assignments (proposal, revised proposal, first progress report, second progress report, demo slides, final report) can be found in the 'All_Project_Assignments' directory
 
 # Code, Scripts, Configurations, etc.
 Below is a list of scripts we have created/edited for the project. They can be found in the 'Code_Scripts_Configurations' directory
