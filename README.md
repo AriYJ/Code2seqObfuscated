@@ -19,6 +19,8 @@ Below is a list of scripts we have created/edited for the project. They can be f
 + Code to get most similar pairs of methods and evaluate accuracy: similarity_accuracy.py
 
 # Raw Data from Experiments
+We have included datasets, models, outputs in the 'Raw_Data_From_Experiments' directory. More specifically, there are a few sub-directories within 'Raw_Data_From_Experiments': 'Dataset', 'Models' and 'Final_Output'. 'Dataset' contains the original java-small dataset as provided by code2seq, the obfuscated dataset we constructed and the 4156 student submission dataset. 'Models' contains both the original java-small model as provided by code2seq and the obfuscated model we trained. 'Final_Output' contains the similarity results we have obtained from both the original java-small code2seq model and the obfuscated model. These results are the basis of our comparison.
+
 ## Output From Experiments
 All output from experiments (we conducted no user studies) can be found in the 'Raw\_Data\_From\_Experiments' and 'Final\_Output' directory. All files are listed below.
 + CSV Output from evaluating the submission data with the original java-small model: output_code2seq_small_model_iter2.csv
