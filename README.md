@@ -36,11 +36,12 @@ All output from experiments (we conducted no user studies) can be found in the '
 + java-small-obfuscated.tar.gz is the dataset used for training the obfuscated code2seq model.
 
 ## Models
-Both original and obfuscated code2seq models used in the study are located insode the `Model` directory.
+Original code2seq small model trained on java-small for 13 epochs: 'Raw_Data_From_Experiments/Models/Original'
+Obfuscated code2seq model we trained in the project for 13 epochs: 'Raw_Data_From_Experiments/Models/Obfuscated' (please read README.md for instructions on merging)
 
 # How To Run This Project
 + Clone code2seq repository
-+ Copy all files inside `Code\_Scripts\_Configurations' directory into the code2seq repo and replace files.
++ Take a look at all files inside `Code\_Scripts\_Configurations' directory. You should be able to find files with the same names (all but 'similarity_accuracy.py') in the code2seq repository. Replace these four files origianl to code2seq with the four edited ones from `Code\_Scripts\_Configurations'. Then copy 'similarity_accuracy.py' into the code2seq repository.
 + Please follow the instruction provided in [code2seq repository](https://github.com/tech-srl/code2seq) to train/test the model.
 + 
 + After you get the CSV file from evaluating the submission data, replace the input filename in similarity\_accuracy.py, set the desired output filename, and run similarity_accuracy.py. The accuracy score will get printed.
