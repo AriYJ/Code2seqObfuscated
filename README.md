@@ -7,10 +7,6 @@ We attempted to answer two research questions: 1) if obfuscation of variable nam
 
 In order to answer these questions, we 1) retrained the code2seq model with obfuscated data, 2) used the new model to evalute student submissions from Columbia's 4156 Advanced Software Engineering (Fall 2020) and 3) compared results to that of the original code2seq small-java model.
 
-# How To Run This Project
-+ After you get the CSV file from evaluating the submission data, replace the input filename in similarity_accuracy.py, set the desired output filename, and run similarity_accuracy.py. The accuracy score will get printed.
-+ <MORE INFO NEEDED>
-  
 # All Project Assignments
 All project assignments (proposal, revised proposal, first progress report, second progress report, demo slides, final report) can be found in the 'All_Project_Assignments' directory
 
@@ -22,13 +18,25 @@ Below is a list of scripts we have created/edited for the project. They can be f
 + Customized script for submission data: interactive_prediction.py (code2seq)
 + Code to get most similar pairs of methods and evaluate accuracy: similarity_accuracy.py
 
-# Raw Data From Experiments
-All raw data from experiments (we conducted no user studies) can be found in the 'Raw_Data_From_Experiments' directory. All files are listed below.
+# Output From Experiments
+All output from experiments (we conducted no user studies) can be found in the 'Raw\_Data\_From\_Experiments' and 'Final\_Output' directory. All files are listed below.
 + CSV Output from evaluating the submission data with the original java-small model:
 + CSV Output from evaluating the submission data with the obfuscated model:
-+ CSV output of most similar pairs of methods with the original java-small model: nonobfuscated_final_output.csv
-+ CSV output of most similar pairs of methods with the obfuscated model: obfuscated_13epoch_final_output.csv
++ CSV output of most similar pairs of methods with the original java-small model: nonobfuscated\_final\_output.csv
++ CSV output of most similar pairs of methods with the obfuscated model: obfuscated\_13epoch\_final_output.csv
 + Two accuracy score outputs are at the end of similarity_accuracy.pdf
+
+# Training and Testing datasets
+`Dataset` directory contains the datasets used for training the code2seq models and testing them:
++ ASE_test_dataset.tar.gz contains 105 submissions from ASE Fall-2020 (Testing dataset)
++ java-small.tar.gz is the dataset used for training the original code2seq model.
++ java-small-obfuscated.tar.gz is the dataset used for training the obfuscated code2seq model.
+
+# Models
+Both original and obfuscated code2seq models used in the study are located insode the `Model` directory.
+
+# How To Run This Project
++ After you get the CSV file from evaluating the submission data, replace the input filename in similarity\_accuracy.py, set the desired output filename, and run similarity_accuracy.py. The accuracy score will get printed.
 + <MORE INFO NEEDED>
 
 # Relevant Sources:
