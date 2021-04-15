@@ -19,7 +19,7 @@ Below is a list of scripts we have created/edited for the project. They can be f
 + Code to get most similar pairs of methods and evaluate accuracy: similarity_accuracy.py
 
 # Raw Data from Experiments
-We have included datasets, models, outputs in the 'Raw_Data_From_Experiments' directory. More specifically, there are a few sub-directories within 'Raw_Data_From_Experiments': 'Dataset', 'Models' and 'Final_Output'. 'Dataset' contains the original java-small dataset as provided by code2seq, the obfuscated dataset we constructed and the 4156 student submission dataset. 'Models' contains both the original java-small model as provided by code2seq and the obfuscated model we trained. 'Final_Output' contains the similarity results we have obtained from both the original java-small code2seq model and the obfuscated model. These results are the basis of our comparison.
+We have included datasets, models, outputs in the 'Raw_Data_From_Experiments' directory. More specifically, there are a few sub-directories within 'Raw_Data_From_Experiments': 'Dataset', 'Models' and 'Final_Output'. 'Dataset' contains the original java-small dataset as provided by code2seq, the obfuscated dataset we constructed and the 4156 student submission dataset. 'Models' contains both the original java-small model as provided by code2seq and the obfuscated model we trained. 'Final_Output' contains the similarity results we have obtained from both the original java-small code2seq model and the obfuscated model. These results are the basis of our comparison. Please see the subsections below for more details of the contents within the directory.
 
 ## Output From Experiments
 All output from experiments (we conducted no user studies) can be found in the 'Raw\_Data\_From\_Experiments' and 'Final\_Output' directory. All files are listed below.
@@ -29,13 +29,13 @@ All output from experiments (we conducted no user studies) can be found in the '
 + CSV output of most similar pairs of methods with the obfuscated model: obfuscated\_13epoch\_final_output.csv
 + Two accuracy score outputs are at the end of similarity_accuracy.pdf
 
-# Training and Testing datasets
+## Training and Testing datasets
 `Dataset` directory contains the datasets used for training the code2seq models and testing them:
 + ASE_test_dataset.tar.gz contains 105 submissions from ASE Fall-2020 (Testing dataset)
 + java-small.tar.gz is the dataset used for training the original code2seq model.
 + java-small-obfuscated.tar.gz is the dataset used for training the obfuscated code2seq model.
 
-# Models
+## Models
 Both original and obfuscated code2seq models used in the study are located insode the `Model` directory.
 
 # How To Run This Project
