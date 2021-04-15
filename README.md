@@ -37,7 +37,9 @@ Both original and obfuscated code2seq models used in the study are located insod
 
 # How To Run This Project
 + After you get the CSV file from evaluating the submission data, replace the input filename in similarity\_accuracy.py, set the desired output filename, and run similarity_accuracy.py. The accuracy score will get printed.
-+ <MORE INFO NEEDED>
++ Clone code2seq repository
++ Copy all files inside `Code\_Scripts\_Configurations' directory into the code2seq repo and replace files.
++ Please follow the instruction provided in [code2seq repository](https://github.com/tech-srl/code2seq) to train/test the model.
 
 # Relevant Sources:
 - Code2seq: https://github.com/tech-srl/code2seq
